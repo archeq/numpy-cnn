@@ -1,0 +1,66 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+.eggs/
+pip-wheel-metadata/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# --- Jupyter / IPython ---
+.ipynb_checkpoints/
+.jupyter/
+profile_default/
+ipython_config.py
+
+# --- IDEs / editors ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs / reports ---
+*.log
+*.out
+*.err
+logs/
+reports/
+
+# --- ML / CNN artifacts ---
+checkpoints/
+runs/
+tensorboard/
+weights/
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# --- Generated data / model outputs ---
+data/
+models/
+outputs/
+artifacts/
+
+# --- Secrets / local config ---
+.env
+.env.*
+*.key
+*.pem
